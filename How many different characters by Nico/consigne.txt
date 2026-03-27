@@ -1,0 +1,6 @@
+enoncé : donner le nombre de char different entre les deux string. string 2 est l'inverse de string 1 avec un char changé ou non
+
+exemple :
+
+S1 : Hello world!
+S2 : !dlpow olfeH
