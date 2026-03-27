@@ -1,0 +1,26 @@
+ 	Objectif
+
+Dans un cour de golf, chaque trou possède un "par", une valeur qui est le maximum de swings dont un joueur a idéalement besoin pour mettre la balle dans le trou.
+
+Dès qu'un joueur a mis la balle dans le trou, le par est soustrait du nombre effectif de coups du joueur. En résulte le score du joueur pour ce trou (par exemple, 2 swings pour un par de 3 donne un score de -1).
+
+Le score final pour un joueur sur un cour est la somme de ses scores pour chaque trou.
+
+À partir d'une feuille de score pour les 18 trous, calculez le score du joueur.
+Entrée
+
+Ligne 1 : 18 nombres séparés par des espaces, représentant les pars pour chaque trou.
+Ligne 2 : 18 nombres séparés par des espaces, représentant le nombre de swings effectués par le joueur pour chaque trou.
+Sortie
+Ligne 1 : the player's final score for the course.
+
+Exemple
+
+Entrée
+
+4 4 3 4 4 5 4 3 5 4 3 4 5 4 4 3 4 5
+4 3 2 4 3 4 3 3 4 4 3 4 6 4 5 3 3 4
+
+Sortie
+
+-6
