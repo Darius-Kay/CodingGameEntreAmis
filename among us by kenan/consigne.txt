@@ -1,0 +1,29 @@
+ 	Objectif
+
+The impostor wants to kill all the crewmates from his ship but has a cooldown between each kill. Print if he can kill
+all the crewmates within the given time. If he doesn't manage to kill them all print the amount of extra time he needed,
+or if he kills them in time then print the remaining time he had to spare. The impostor starts with the cooldown.
+
+Entrée
+
+Ligne 1 : an int crewmate with the amount of crewmates.
+Ligne 2 : an int time with the amount of time he has.
+Ligne 3 : an int cooldown with the cd betzeen each kill.
+
+Sortie
+
+Ligne 1 : a string if the impostor managed to kill all the crewmates.
+ligne 2 : an int with the time he needed to kill all the crewmates or the time he spared.
+
+Exemple
+
+Entrée
+
+20
+200
+10
+
+Sortie
+
+True
+0
