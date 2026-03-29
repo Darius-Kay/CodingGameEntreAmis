@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-int main()
+int main()z
 {
 	int par[9999];
     int swing[9999];

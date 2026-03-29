@@ -1,0 +1,35 @@
+Une contribution de Faidelow
+ Approuvé par Merisson,basiliclebogossetbreynard
+
+ 	Objectif
+
+Initially output equals 0. Iterate through each number in the input and perform the following operation:
+
+If the number is odd: Multiply it to output
+If the number is even: Add it to the output
+
+Entrée
+
+Line 1: An integer count which represents the amount of given numbers.
+Line 2: A list of integer numbers of length count seperated by space.
+
+Sortie
+
+Line 1: An integer output
+
+Contraintes
+
+0 < count <= 100
+-10000 <= number <= 10000
+-2147483648 < output < 2147483648
+
+Exemple
+
+Entrée
+
+5
+2 4 8 10 6
+
+Sortie
+
+30
